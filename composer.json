@@ -1,0 +1,20 @@
+{
+    "name": "doyche/quantox_school_board",
+    "description": "System responsible for the managing the grades for a list of students",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Doyche",
+            "email": "dojcinovicmilos.dm@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "src/"
+        }
+    },
+    "require": {
+        "sabre/xml": "^2.1"
+    }
+}
